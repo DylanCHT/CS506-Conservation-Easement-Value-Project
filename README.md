@@ -16,13 +16,7 @@ Impact of Easement = {(Estimated Sale Price - Real Sale Price) / Real Sale Price
 
 
 ### Packages Using
-pandas
-numpy
-seaborn
-matplotlib
-math
-sklearn
-statistics
+pandas, numpy, seaborn, matplotlib, math, sklearn, statistics
 
 
 ### Running
