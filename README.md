@@ -21,7 +21,9 @@ pandas, numpy, seaborn, matplotlib, math, sklearn, statistics
 
 ### Running
 Open the file called "CS 506 Property Value Modeling Project Cleaned .ipynb" using Jupyter Note Book
+
 Click "Run All" in Cell Tab in the top
+
 It will show the final result in the last cell
 
 
