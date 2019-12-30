@@ -16,6 +16,10 @@ Our goal in this project is to find the impact of easement on the sale price of 
 
 For predictive models, we were choosing between Linear Regression, RandomForest Regressor, Gradient Boosting Regressor, and DecisionTree Regressor. By comparing the MAE on each regression model, we decided to use RandomForest Regressor since it gave us the lower MAE. 
  
+<img width="559" alt="Screen Shot 2019-12-30 at 11 40 29 AM" src="https://user-images.githubusercontent.com/43009748/71567430-f262b580-2af9-11ea-8255-d4a5883701d7.png">
+
+<img width="830" alt="Screen Shot 2019-12-30 at 11 40 24 AM" src="https://user-images.githubusercontent.com/43009748/71567432-fb538700-2af9-11ea-9ee4-8dfa047d82e1.png"> 
+
 After choosing the model with the lowest MAE which is RandomForest Regressor, we train the model with the variables we chose with parameters n_estimators = 100 and max_depth = 11 (Explained in Model Evaluation). Then, we used our predictive model to predict the sale price of the properties with easement. 
 
 Lastly, we will use the formula below to estimate the impact of easement the sale price of properties: 
