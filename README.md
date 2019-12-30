@@ -21,6 +21,8 @@ Impact of Easement = {(Estimated Sale Price - Real Sale Price) / Real Sale Price
 
 ## FINDINGS AND RESULTS
 
+<img width="684" alt="Screen Shot 2019-12-30 at 11 41 13 AM" src="https://user-images.githubusercontent.com/43009748/71567344-4f11a080-2af9-11ea-8e0c-897e990d0c39.png">
+
 After obtained and trained an optimal predictive model on the sale price of lands without easements, we used the model to predict the sale price of lands with easement, and found the mean percentage difference of predictive sale price and real sale price. The figure below shows a plot of prediction and true target. As we can see, the points lie around the line y = x, which implies that our prediction is generally accurate.
 Result of the prediction of the sale price of land with easement
 Using the formula stated in the Methodology section, we found the impact of easement on the sale price of the land to be: Impact of Easement = {(Estimated Sale Price - Real Sale Price) / Real Sale Price}* 100% = 39.20%
